@@ -36,7 +36,8 @@ See the library README for how to use pre-defined sensor models or custom
 fit functions.
 */
 
-#include <SharpDistSensor.h>
+//#include <SharpDistSensor.h>
+#include "SharpDistSensor.h"  // WS made it local if I want to modify: ie, forked repo, didn't install as library
 
 // Analog pin to which the sensor is connected
 const byte sensorPin = A0;
@@ -60,5 +61,5 @@ void loop() {
   Serial.println(distance);
 
   // Wait some time
-  delay(50);
+  delay(20);  // WS original 50
 }

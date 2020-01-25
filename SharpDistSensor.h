@@ -59,7 +59,8 @@ the following library is used: https://github.com/daPhoosa/MedianFilter.
 #define SharpDistSensor_h
 
 #include <Arduino.h>
-#include <MedianFilter.h>
+//#include <MedianFilter.h>
+#include "MedianFilter.h"  // WS mod
 
 class SharpDistSensor
 {

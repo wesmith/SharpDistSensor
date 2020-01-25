@@ -25,7 +25,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-#include <SharpDistSensor.h>
+//#include <SharpDistSensor.h>
+#include "SharpDistSensor.h"  // WS made it local if I want to modify: ie, I forked the repo, didn't install as library
+
 
 /* Constructor
   pin:    Arduino analog pin the sensor is connected to
